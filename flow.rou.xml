@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-21 12:48:43 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E3 E9 E6"/>
+    <route id="r_1" edges="-E6 E8 E4"/>
+    <route id="r_10" edges="-E4 E7 E10 E9 E8 E4" color="blue"/>
+    <route id="r_11" edges="E5 E10 E9 E8 E7 -E5" color="blue"/>
+    <route id="r_2" edges="-E4 E7 -E5"/>
+    <route id="r_3" edges="E5 E10 -E3"/>
+    <route id="r_4" edges="E3 E9 E8 E4" color="cyan"/>
+    <route id="r_5" edges="-E6 E8 E7 -E5" color="cyan"/>
+    <route id="r_6" edges="-E4 E7 E10 -E3" color="cyan"/>
+    <route id="r_7" edges="E5 E10 E9 E6" color="cyan"/>
+    <route id="r_8" edges="E3 E9 E8 E7 E10 -E3" color="blue"/>
+    <route id="r_9" edges="-E6 E8 E7 E10 E9 E6" color="blue"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="v_0" depart="0.00" route="r_0"/>
+    <vehicle id="v_1" depart="0.00" route="r_1"/>
+    <vehicle id="v_10" depart="0.00" color="green" route="r_2"/>
+    <vehicle id="v_11" depart="0.00" color="green" route="r_3"/>
+    <vehicle id="v_12" depart="0.00" color="cyan" route="r_0"/>
+    <vehicle id="v_2" depart="0.00" route="r_2"/>
+    <vehicle id="v_3" depart="0.00" route="r_3"/>
+    <vehicle id="v_4" depart="0.00" color="blue" route="r_0"/>
+    <vehicle id="v_5" depart="0.00" color="blue" route="r_1"/>
+    <vehicle id="v_6" depart="0.00" color="blue" route="r_2"/>
+    <vehicle id="v_7" depart="0.00" color="blue" route="r_3"/>
+    <vehicle id="v_8" depart="0.00" color="green" route="r_0"/>
+    <vehicle id="v_9" depart="0.00" color="green" route="r_1"/>
+    <vehicle id="v_13" depart="10.00" color="cyan" route="r_1"/>
+    <vehicle id="v_14" depart="10.00" color="cyan" route="r_2"/>
+    <vehicle id="v_15" depart="10.00" color="cyan" route="r_3"/>
+    <vehicle id="v_16" depart="10.00" color="cyan" route="r_0"/>
+    <vehicle id="v_17" depart="10.00" color="cyan" route="r_1"/>
+    <vehicle id="v_18" depart="10.00" color="cyan" route="r_2"/>
+    <vehicle id="v_19" depart="10.00" color="cyan" route="r_3"/>
+    <vehicle id="v_20" depart="20.00" color="magenta" route="r_0"/>
+    <vehicle id="v_21" depart="20.00" color="magenta" route="r_1"/>
+    <vehicle id="v_22" depart="20.00" color="magenta" route="r_2"/>
+    <vehicle id="v_23" depart="20.00" color="magenta" route="r_3"/>
+    <vehicle id="v_24" depart="20.00" color="magenta" route="r_0"/>
+    <vehicle id="v_25" depart="20.00" color="magenta" route="r_1"/>
+    <vehicle id="v_26" depart="20.00" color="magenta" route="r_2"/>
+    <vehicle id="v_27" depart="20.00" color="magenta" route="r_3"/>
+    <vehicle id="v_28" depart="20.00" route="r_4"/>
+    <vehicle id="v_29" depart="30.00" route="r_5"/>
+    <vehicle id="v_30" depart="30.00" route="r_6"/>
+    <vehicle id="v_31" depart="30.00" route="r_5"/>
+    <vehicle id="v_32" depart="40.00" color="magenta" route="r_4"/>
+    <vehicle id="v_33" depart="40.00" color="magenta" route="r_4"/>
+    <vehicle id="v_34" depart="40.00" color="magenta" route="r_5"/>
+    <vehicle id="v_35" depart="40.00" color="magenta" route="r_5"/>
+    <vehicle id="v_36" depart="40.00" color="magenta" route="r_6"/>
+    <vehicle id="v_37" depart="40.00" color="magenta" route="r_6"/>
+    <vehicle id="v_38" depart="40.00" color="magenta" route="r_7"/>
+    <vehicle id="v_39" depart="40.00" color="magenta" route="r_7"/>
+    <vehicle id="v_40" depart="40.00" color="blue" route="r_4"/>
+    <vehicle id="v_41" depart="50.00" color="blue" route="r_4"/>
+    <vehicle id="v_42" depart="50.00" color="blue" route="r_5"/>
+    <vehicle id="v_43" depart="50.00" color="blue" route="r_5"/>
+    <vehicle id="v_44" depart="50.00" color="blue" route="r_6"/>
+    <vehicle id="v_45" depart="50.00" color="blue" route="r_6"/>
+    <vehicle id="v_46" depart="50.00" color="blue" route="r_7"/>
+    <vehicle id="v_47" depart="50.00" color="blue" route="r_7"/>
+    <vehicle id="v_48" depart="50.00" color="blue" route="r_0"/>
+    <vehicle id="v_49" depart="60.00" color="blue" route="r_0"/>
+    <vehicle id="v_50" depart="60.00" color="green" route="r_8"/>
+    <vehicle id="v_51" depart="60.00" color="green" route="r_8"/>
+    <vehicle id="v_52" depart="60.00" color="green" route="r_9"/>
+    <vehicle id="v_53" depart="60.00" color="green" route="r_9"/>
+    <vehicle id="v_54" depart="60.00" color="green" route="r_9"/>
+    <vehicle id="v_55" depart="60.00" color="green" route="r_9"/>
+    <vehicle id="v_56" depart="60.00" color="green" route="r_9"/>
+    <vehicle id="v_57" depart="60.00" color="green" route="r_9"/>
+    <vehicle id="v_58" depart="60.00" color="magenta" route="r_0"/>
+    <vehicle id="v_59" depart="70.00" color="magenta" route="r_0"/>
+    <vehicle id="v_60" depart="70.00" color="magenta" route="r_0"/>
+    <vehicle id="v_61" depart="70.00" color="magenta" route="r_0"/>
+    <vehicle id="v_62" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_63" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_64" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_65" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_66" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_67" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_68" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_69" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_70" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_71" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_72" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_73" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_74" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_75" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_76" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_77" depart="70.00" color="magenta" route="r_9"/>
+    <vehicle id="v_78" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_79" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_80" depart="70.00" color="magenta" route="r_11"/>
+    <vehicle id="v_81" depart="80.00" color="magenta" route="r_11"/>
+    <vehicle id="v_82" depart="80.00" color="magenta" route="r_11"/>
+    <vehicle id="v_83" depart="80.00" color="magenta" route="r_11"/>
+    <vehicle id="v_84" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_85" depart="80.00" color="magenta" route="r_8"/>
+    <vehicle id="v_86" depart="80.00" color="magenta" route="r_8"/>
+    <vehicle id="v_87" depart="80.00" color="magenta" route="r_8"/>
+    <vehicle id="v_88" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_89" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_90" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_91" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_92" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_93" depart="80.00" color="magenta" route="r_9"/>
+    <vehicle id="v_94" depart="80.00" color="magenta" route="r_8"/>
+    <vehicle id="v_95" depart="80.00" color="magenta" route="r_8"/>
+</routes>
